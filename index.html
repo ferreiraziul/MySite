@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br'">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkLu</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+
+</head>
+<body>
+    <center><img src="Ferreiraziul.png" height="250" width="450" /></center>
+    <center>
+        <h1>Sobre mim</h1>
+    </center>
+    </h1>
+    <center>
+        <p> Oiie! Pode me chamar de Lu! :D<br>
+            Tenho entre 15 e 44 anos e sou brasileira. Amo ler, jogar e ouvir música. Minha planilha de indicações
+            estará aqui embaixo.<br>
+            Amo coelhos, pássaros e borboletas e minha comida favorita é frango (strogonoff? amo)! Minhas matérias favoritas são
+            história, artes<br>
+            e literatura. (Não coloque uma conta perto de mim). Sou administradora e criadora do LaruSMP, um servidor
+            Java de Minecraft.<br>
+        Também amo plantas (Tive 15 e todas morreram por calor... acho que não sou uma boa mãe) :( </p>
+    </center>
+    <br>
+    <center>
+        <h1>Redes Sociais</h1>
+    </center>
+    </h1>
+    <center><a href="https://www.instagram.com/ferreiraziul/"> Instagram </a>
+        <a href="https://open.spotify.com/user/ozdzcjtu47o1j2qufig71tt1l?si=e7af15f88fa14908"> Spotify </a>
+        <a href="https://www.linkedin.com/in/luiza-ferreira-28b02a289/"> LinkedIn </a>
+        <a href="https://bsky.app/profile/ferreiraziul.bsky.social"> BlueSky </a>
+        <a href="https://linktr.ee/larusmp"> LaruSMP </a>
+        <a href="https://github.com/ferreiraziul"> GitHub </a>
+        <a href="https://vsco.co/ferreiraziul"> VSCO </a>
+    </center>
+    <br>
+    <center>
+        <h1>Minhas indicações</h1>
+    </center>
+    </h1>
+    <center><a
+            href="https://docs.google.com/spreadsheets/d/1hlFCoJB47oEvD1waLOdM6Jx3txBjfmsb0sV08Kw3t7g/edit?usp=sharing">Clique
+            aqui para acessar !</a></center>
+    <p></p>
+    <br>
+    <center>
+        <h1>Hannah divando</h1>
+    </center>
+
+    <center><div class="carousel">
+        <input type="radio" name="carousel" id="slide1" checked>
+        <input type="radio" name="carousel" id="slide2">
+        <input type="radio" name="carousel" id="slide3">
+        <input type="radio" name="carousel" id="slide4">
+        <input type="radio" name="carousel" id="slide5">
+        <input type="radio" name="carousel" id="slide6">
+        <input type="radio" name="carousel" id="slide7">
+        <div class="slides">
+          <div class="slide">
+            <img src="1.png" alt="Slide 1">
+          </div>
+          <div class="slide">
+            <img src="2.png" alt="Slide 2">
+          </div>
+          <div class="slide">
+            <img src="3.png" alt="Slide 3">
+          </div>
+          <div class="slide">
+            <img src="4.png" alt="Slide 4">
+          </div>
+          <div class="slide">
+            <img src="5.png" alt="Slide 5">
+          </div>
+          <div class="slide">
+            <img src="6.png" alt="Slide 6">
+          </div>
+          <div class="slide">
+            <img src="7.png" alt="Slide 7">
+          </div>
+        </div>
+        <div class="navigation">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
+          <label for="slide5"></label>
+          <label for="slide6"></label>
+          <label for="slide7"></label>
+        </div>
+      </div></center>
+
+      <script>
+        let currentSlide = 1;
+        const totalSlides = 7; // Número total de slides
+        const intervalTime = 2000; // Tempo em milissegundos (3 segundos)
+      
+        function showNextSlide() {
+          currentSlide++;
+          if (currentSlide > totalSlides) {
+            currentSlide = 1;
+          }
+      
+          document.getElementById(`slide${currentSlide}`).checked = true;
+        }
+      
+        // Mude automaticamente a cada 3 segundos
+        setInterval(showNextSlide, intervalTime);
+      </script>
+      
+
+</body>
+
+</html>
